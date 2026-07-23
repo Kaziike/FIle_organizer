@@ -1,9 +1,8 @@
 # Công cụ tự động dọn dẹp thư mục (File Organizer) trên Linux
 
-Công cụ tự động quét thư mục `~/Downloads`, chuyển file ảnh (`.jpg`, `.png`, `.jpeg`, `.gif`, `.webp`, v.v.) sang thư mục `~/Pictures` và chuyển các tài liệu (`.pdf`, `.docx`, `.doc`, `.xlsx`, `.pptx`, v.v.) sang thư mục `~/Documents`.
 
 ##  Tính năng nổi bật
-- **Tự động di chuyển**: Chuyển ngay các định dạng ảnh vào `~/Pictures` và tài liệu vào `~/Documents`.
+- **Tự động di chuyển**: Vd: Chuyển ngay các định dạng ảnh vào `~/Pictures` và tài liệu vào `~/Documents`.
 - **Bỏ qua file tải dở**: Tự động bỏ qua các file tạm (`.crdownload`, `.part`, `.tmp`).
 - **An toàn dữ liệu (Chống ghi đè)**: Nếu file trùng tên đã tồn tại ở thư mục đích, công cụ tự đổi tên thành `file_1.ext`, `file_2.ext`.
 - **Hai chế độ chạy**:
@@ -60,10 +59,10 @@ journalctl --user -u file-organizer.service -f
 
 ## 🛠️ Tùy chỉnh danh mục mở rộng
 
-Bạn có thể mở rộng danh sách loại file bằng cách chỉnh sửa từ điển `CATEGORIES` trong file [file_organizer.py](file:///home/kaz/ProjectLinux/file_organizer.py):
+Bạn có thể mở rộng danh sách loại file bằng cách chỉnh sửa từ điển `CATEGORIES` trong file [config.json](file:///home/kaz/ProjectLinux/config.json):
 
 ```python
-CATEGORIES = {
+{
     "Pictures": {
         "extensions": [".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"],
         "target_dir": Path.home() / "Pictures"
