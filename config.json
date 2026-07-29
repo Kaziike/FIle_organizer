@@ -1,81 +1,107 @@
 {
-    "Pictures": {
-        "extensions": [
-            ".jpg",
-            ".jpeg",
-            ".png",
-            ".gif",
-            ".webp",
-            ".svg",
-            ".bmp",
-            ".ico",
-            ".tiff",
-            ".heic"
-        ],
-        "target_dir": "~/Pictures"
-    },
-    "Documents": {
-        "extensions": [
-            ".pdf",
-            ".docx",
-            ".doc",
-            ".xlsx",
-            ".xls",
-            ".pptx",
-            ".ppt",
-            ".txt",
-            ".csv",
-            ".odt",
-            ".rtf"
-        ],
-        "target_dir": "~/Documents"
-    },
-    "Videos": {
-        "extensions": [
-            ".mp4",
-            ".mov",
-            ".mkv",
-            ".avi",
-            ".flv",
-            ".webm",
-            ".wmv",
-            ".m4v"
-        ],
-        "target_dir": "~/Videos"
-    },
-    "App": {
-        "extensions": [
-            ".apk",
-            ".deb",
-            ".rpm",
-            ".appimage",
-            ".exe",
-            ".msi"
-        ],
-        "target_dir": "~/App"
-    },
-    "Music": {
-        "extensions": [
-            ".mp3",
-            ".wav",
-            ".flac",
-            ".aac",
-            ".ogg",
-            ".m4a"
-        ],
-        "target_dir": "~/Music"
-    },
-    "Archives": {
-        "extensions": [
-            ".zip",
-            ".tar.gz",
-            ".tar",
-            ".gz",
-            ".rar",
-            ".7z",
-            ".bz2",
-            ".xz"
-        ],
-        "target_dir": "~/Documents/Archives"
+    "source_dirs": [
+        "~/Downloads",
+        "~/data",
+        "~/test2"
+    ],
+    "categories": {
+        "Pictures": {
+            "extensions": [
+                ".jpg",
+                ".jpeg",
+                ".png",
+                ".gif",
+                ".webp",
+                ".svg",
+                ".bmp",
+                ".ico",
+                ".tiff",
+                ".heic"
+            ],
+            "target_dir": "~/Pictures"
+        },
+        "Documents": {
+            "extensions": [
+                ".pdf",
+                ".docx",
+                ".doc",
+                ".xlsx",
+                ".xls",
+                ".pptx",
+                ".ppt",
+                ".txt",
+                ".csv",
+                ".odt",
+                ".rtf"
+            ],
+            "target_dir": "~/Documents"
+        },
+        "Videos": {
+            "extensions": [
+                ".mp4",
+                ".mov",
+                ".mkv",
+                ".avi",
+                ".flv",
+                ".webm",
+                ".wmv",
+                ".m4v"
+            ],
+            "target_dir": "~/Videos"
+        },
+        "AppApp": {
+            "extensions": [
+                ".apk",
+                ".deb",
+                ".rpm",
+                ".appimage",
+                ".exe",
+                ".msi"
+            ],
+            "target_dir": "~/AppApp"
+        },
+        "Music": {
+            "extensions": [
+                ".mp3",
+                ".wav",
+                ".flac",
+                ".aac",
+                ".ogg",
+                ".m4a"
+            ],
+            "target_dir": "~/Music"
+        },
+        "Archives": {
+            "extensions": [
+                ".zip",
+                ".tar.gz",
+                ".tar",
+                ".gz",
+                ".rar",
+                ".7z",
+                ".bz2",
+                ".xz"
+            ],
+            "target_dir": "~/Documents/Archives"
+        },
+        "Test": {
+            "extensions": [
+                ".test"
+            ],
+            "target_dir": "~/Test"
+        },
+        "Ebooks": {
+            "extensions": [
+                ".epub",
+                ".mobi"
+            ],
+            "target_dir": "/home/kaz/Books"
+        },
+        "testfilegoc": {
+            "extensions": [
+                ".test2"
+            ],
+            "target_dir": "~/test2"
+        }
     }
 }
