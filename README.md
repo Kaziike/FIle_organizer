@@ -39,7 +39,7 @@ Chọn **[1] Quản lý Thư mục nguồn** để Thêm / Xóa thư mục ngu�
   python3 file_organizer.py --delete-source ~/data
   ```
 
-#### 🔹 Qua file cấu hình [config.json](file:///home/kaz/ProjectLinux/config.json):
+#### 🔹 Qua file cấu hình [config.json](`~/config.json`):
 Chỉnh sửa danh sách `source_dirs`:
 ```json
 {
@@ -119,7 +119,7 @@ journalctl --user -u file-organizer.service -f
 
 ## 🛠️ Tùy chỉnh danh mục mở rộng
 
-Bạn có thể mở rộng danh sách loại file bằng cách chỉnh sửa từ điển `CATEGORIES` trong file [config.json](file:///home/kaz/ProjectLinux/config.json):
+Bạn có thể mở rộng danh sách loại file bằng cách chỉnh sửa từ điển `CATEGORIES` trong file [config.json](`~/config.json`):
 
 ```python
 {
